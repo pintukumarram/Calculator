@@ -1,0 +1,33 @@
+.calculate{
+  border: 1px solid rgb(99, 82, 82);
+  width: 200px;
+  background-color: rgb(215, 185, 185);
+  
+}
+#display{
+  
+  margin: 10px ;
+  font-size: 25px;
+  width: 85%;
+  border-radius: 10px;
+  
+}
+.button-container{
+  display: flex;
+  justify-content: center;
+}
+.button{
+  
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  
+
+}
+.button:hover{
+  background-color: rgb(244, 134, 56);
+  transition: 0.5s;
+}
